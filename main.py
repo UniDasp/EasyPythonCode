@@ -9,17 +9,11 @@ while True:
     option = input("Ingresa una opción: ")
 
     if option == "1":
-        num1 = int(input("Ingresa el primer numero: "))
-        num2 = int(input("Ingresa el segundo numero: "))
-        print(sumar(num1, num2))
+        sumar()
         wait(2)
     if option == "2":
-        num1 = int(input("Ingresa el primer numero: "))
-        num2 = int(input("Ingresa el segundo numero: "))
-        print(restar(num1, num2))
+        restar()
         wait(2)
     if option == "3":
-        num1 = int(input("Ingresa el primer numero: "))
-        num2 = int(input("Ingresa el segundo numero: "))
-        print(multiplicar(num1, num2))
+        multiplicar()
         wait(2)
